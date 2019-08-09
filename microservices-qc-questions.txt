@@ -1,0 +1,33 @@
+1.	Main advantages of using microservices.
+2.	Any disadvantage in using microservices.
+3.	Dependencies of Microservices (what do we need to use).
+4.	Annotations of Eureka and what they do.
+5.	How to implement Registry and Discovery services.
+6.	What exception will get thrown if you try to run the client (single microservice) before the server (eureka)?
+7.	How to implement Gateway service.
+8.	What happens if you don’t have a gateway? Can you have microservices without this?
+9.	Annotations of Zuul and what they do.
+10.	How do you make Zuul to employ discovery for the routes to services?
+11.	How to implement Monitoring service.
+12.	Annotations of Hystrix and what they do?
+13.	How to implement the Orchestration service?
+14.	What is Docker?
+15.	Workflow of a Docker? How does an image reach the container?
+16.	Explain each component in Docker containers.
+17.	Docker commands.
+18.	Image vs Instance.
+19.	Some properties in a docker-compose file.
+20.	How to make an image available in the main Docker instance.
+21.	Some commands in a docker file.
+22.	How do you create a docker image?
+23.	How to implement the Messaging Service.
+24.	Publisher/Subscriber in Kafka.
+25.	Annotations/Classes of Kafka and what they do?
+26.	How do we enhance the natural resiliency of the Microservices architecture?
+27.	Explain Spring Boot.
+28.	How do you configure the custom port in Spring Boot? (server.port = number in application.properties).
+29.	How do you reload any changes in Spring Boot without having to restart it?
+30.	How do you perform any database operations with Spring Boot?
+31.	What are actuators in Spring Boot?
+32.	What is Spring Data?
+33.	How do you define your custom Repository?

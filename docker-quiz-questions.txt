@@ -1,0 +1,143 @@
+// question: 0  name: Switch category to $system$/DevOps/Docker
+$CATEGORY: $system$/DevOps/Docker
+
+
+// question: 5477  name: Docker containers are instances of
+::Docker containers are instances of::[html]<p>Docker containers are instances of<br></p>{
+	~<p>dockerfiles</p>
+	=<p>images</p>
+	~<p>nodes</p>
+	~<p>docker</p>
+}
+
+
+// question: 5474  name: Docker images are configured from a file called
+::Docker images are configured from a file called::[html]<p>Docker images are configured from a file called<br></p>{
+	~<p>Docker</p>
+	=<p>Dockerfile</p>
+	~Vagrantfile
+	~<p>Dockerup</p>
+}
+
+
+// question: 5476  name: What command makes a port on the container open for listening?
+::What command makes a port on the container open for listening?::[html]<p>What command makes a port on the container open for listening?<br></p>{
+	~<p>OPEN</p>
+	~<p>LISTENER</p>
+	=<p>EXPOSE</p>
+	~<p>LISTEN</p>
+}
+
+
+// question: 5473  name: What is the first instruction required in every Dockerfile?
+::What is the first instruction required in every Dockerfile?::[html]<p>What is the first instruction required in every Dockerfile?<br></p>{
+	~<p>IMAGE</p>
+	~<p>ENTRYPOINT</p>
+	~<p>WORKDIR</p>
+	=<p>FROM</p>
+}
+
+
+// question: 5475  name: What two Dockerfile instructions move files from the host OS to the Docker image?
+::What two Dockerfile instructions move files from the host OS to the Docker image?::[html]<p>What two Dockerfile instructions move files from the host OS to the Docker image?<br></p>{
+	~<p>Move and Push</p>
+	~<p>Pull and Push</p>
+	~<p>Set and Copy</p>
+	=<p>Add and Copy</p>
+}
+
+
+// question: 5471  name: What type of network does Docker connect all containers to by default?
+::What type of network does Docker connect all containers to by default?::[html]<p>What type of network does Docker connect all containers to by default?<br></p>{
+	~<p>host-based</p>
+	=<p>Bridge</p>
+	~<p>none</p>
+	~<p>NAT</p>
+}
+
+
+// question: 5478  name: Which command lets you see a list of images?
+::Which command lets you see a list of images?::[html]<p>Which command lets you see a list of images?<br></p>{
+	~<p>docker ps</p>
+	=<p>docker images</p>
+	~<p>docker show</p>
+	~<p>docker ls</p>
+}
+
+
+// question: 5468  name: Which command packages a Dockerfile into an image?
+::Which command packages a Dockerfile into an image?::[html]<p>Which command packages a Dockerfile into an image?<br></p>{
+	=<p>docker build</p>
+	~<p>docker run</p>
+	~<p>docker make</p>
+	~<p>docker image</p>
+}
+
+
+// question: 5467  name: Which command starts a Docker image and turns it into a container?
+::Which command starts a Docker image and turns it into a container?::[html]<p>Which command starts a Docker image and turns it into a container?<br></p>{
+	~<p>docker start</p>
+	=<p>docker run</p>
+	~<p>docker go</p>
+	~<p>docker not docker</p>
+}
+
+
+// question: 5469  name: Which command will show you the logs of a running Docker container?
+::Which command will show you the logs of a running Docker container?::[html]<p>Which command will show you the logs of a running Docker container?<br></p>{
+	~<p>docker output</p>
+	~<p>docker show</p>
+	=<p>docker logs</p>
+	~<p>docker info</p>
+}
+
+
+// question: 5465  name: Which command will stop a running container in Docker?
+::Which command will stop a running container in Docker?::[html]<p>Which command will stop a running container in Docker?<br></p>{
+	~<p>docker halt</p>
+	=<p>docker stop</p>
+	~<p>docker run -d</p>
+	~<p>docker pause</p>
+}
+
+
+// question: 5464  name: Which commands are related to Docker registries?
+::Which commands are related to Docker registries?::[html]<span style\="font-size\: 18px;">Which commands are related to Docker registries?</span><br>{
+	~<p>docker push</p>
+	~<p>docker login</p>
+	~<p>docker pull</p>
+	=<p>All of them.</p>
+}
+
+
+// question: 5466  name: Which Docker command is used to show running containers?
+::Which Docker command is used to show running containers?::[html]<p>Which Docker command is used to show running containers?<br></p>{
+	~<p>dock run</p>
+	~<p>docker show</p>
+	~<p>docker images</p>
+	=<p>docker ps</p>
+}
+
+
+// question: 5585  name: Which maven command needs to be executed in order to deploy a Docker image to the Docker server once the maven-plugin is configured?
+::Which maven command needs to be executed in order to deploy a Docker image to the Docker server once the maven-plugin is configured?::[html]<p>Which maven command needs to be executed in order to deploy a Docker image to the Docker server the maven-plugin is configured?<br></p>{
+	=<p>mvn clean package docker\:build</p>
+	~<p>mvn clean package docker\:clean</p>
+	~<p>mvn clean package build\:docker</p>
+	~<p>mvn clean package docker\:deploy</p>
+}
+
+
+// question: 5470  name: Which of the following Docker components manages images and containers?
+::Which of the following Docker components manages images and containers?::[html]<p>Which of the following Docker components manages images and containers?<br></p>{
+	~<p>Docker registeries</p>
+	~<p>Docker hub</p>
+	~<p>Docker CLI</p>
+	=<p>Docker Daemon</p>
+}
+
+
+// question: 5472  name: Docker containers are instances of a Docker image.
+::Docker containers are instances of a Docker image.::[html]<p>Docker containers are instances of a Docker image.<br></p>{TRUE}
+
+

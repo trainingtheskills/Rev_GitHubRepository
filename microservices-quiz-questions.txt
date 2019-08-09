@@ -1,0 +1,197 @@
+// question: 0  name: Switch category to $module$/Default for Microservices
+$CATEGORY: $module$/Default for Microservices
+
+
+// question: 5688  name: Select all advantages of using a microservices architecture
+::Select all advantages of using a microservices architecture::[html]<p>Select all advantages of using a microservices architecture<br></p>{
+	~%-50%Makes it easier to deploy applications#<p>This is a disadvantage of the architecture.</p>
+	~%20%<p>Increases application modularity by defining monolithic applications</p>
+	~%20%<p>Provides isolated development since applications are distributed in granular functionality</p>
+	~%20%<p>Testing can be done for individual functionality without having to test the whole application</p>
+	~%20%<p>New functionality can be added without shutting down application, making our architecture more scalable</p>
+	~%-50%<p>The architecture can be easily refactored</p>#<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">This is a disadvantage of the architecture.</span><br></p>
+	~%20%The architecture is naturally resilient and can be enhanced even more with the usage of additional tools and services
+}
+
+
+// question: 5687  name: Select the correct docker compose command to run all services defined in a docker-compose.yml file
+::Select the correct docker compose command to run all services defined in a docker-compose.yml file::[html]<p>Select the correct docker compose command to run all services defined in a docker-compose.yml file<br></p>{
+	=<p>docker-compose up</p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;"><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">docker-compose start</span></span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;"><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">docker-compose run</span></span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;"><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">docker-compose run -a</span></span><br></p>
+}
+
+
+// question: 5675  name: Select the correct Gateway service
+::Select the correct Gateway service::[html]<p>Select the correct Gateway service<br></p>{
+	~<p>Eureka</p>
+	=<p>Zuul</p>
+	~<p>Docker</p>
+	~<p>Kafka</p>
+	~<p>Hystrix</p>
+}
+
+
+// question: 5678  name: Select the correct Messaging service
+::Select the correct Messaging service::[html]<p>Select the correct Messaging service<br></p>{
+	~<p>Eureka</p>
+	~<p>Zuul</p>
+	~<p>Docker</p>
+	~<p>Hystrix</p>
+	=<p>Kafka</p>
+}
+
+
+// question: 5677  name: Select the correct Monitoring service
+::Select the correct Monitoring service::[html]<p>Select the correct Monitoring service<br></p>{
+	~<p>Eureka</p>
+	~<p>Zuul</p>
+	~<p>Docker</p>
+	=<p>Hystrix</p>
+	~<p>Kafka</p>
+}
+
+
+// question: 5676  name: Select the correct Orchestration service
+::Select the correct Orchestration service::[html]<p>Select the correct Orchestration service<br></p>{
+	~<p>Eureka</p>
+	~<p>Zuul</p>
+	=<p>Docker</p>
+	~<p>Hystrix</p>
+	~<p>Kafka</p>
+}
+
+
+// question: 5682  name: Select the correct properties of Zuul to enable discovery of routes
+::Select the correct properties of Zuul to enable discovery of routes::[html]<p>Select the correct properties of Zuul to enable discovery of routes<br></p>{
+	~%50%<p>zuul.routes.service.path<br></p>
+	~%-50%<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">zuul.routes.service.url</span><br></p>
+	~%50%<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">zuul.routes.service.service-id</span><br></p>
+	~%-50%<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">zuul.routes.service.location</span><br></p>
+}
+
+
+// question: 5674  name: Select the correct Registry and Discovery service
+::Select the correct Registry and Discovery service::[html]<p>Select the correct Registry and Discovery service<br></p>{
+	=<p>Eureka</p>
+	~<p>Zuul</p>
+	~<p>Docker</p>
+	~<p>Kafka</p>
+	~<p>Hystrix</p>
+}
+
+
+// question: 5686  name: What class does a publisher use to push messages to a queue?
+::What class does a publisher use to push messages to a queue?::[html]<p>What class does a publisher use to push messages to a queue?<br></p>{
+	=<p>KafkaTemplate&lt;T,V&gt;</p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">KafkaMessage&lt;T,V&gt;</span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">Template&lt;T,V&gt;</span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">KafkaTopic&lt;T,V&gt;</span><br></p>
+}
+
+
+// question: 5691  name: What is a Spring Boot actuator?
+::What is a Spring Boot actuator?::[html]<p>What is a Spring Boot actuator?<br></p>{
+	=<p>Endpoints included in Spring Boot to monitor and interact with your application, like /health.</p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">Custom endpoints defined in a Controller.</span><br></p>
+	~<p>Used in microservices to enable monitoring</p>
+	~<p>Enhanced Spring Boot functionality</p>
+	####<p>https\://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html<br></p>
+}
+
+
+// question: 5695  name: What is the command to deploy a group of services into a running swarm in Docker?
+::What is the command to deploy a group of services into a running swarm in Docker?::[html]<p>What is the command to deploy a group of services into a running swarm in Docker?<br></p>{
+	=<p>docker stack deploy swarmName</p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">docker deploy stack swarmName</span><br></p>
+	~<p>docker deploy swarmName</p>
+	~<p>docker stack swarmName</p>
+}
+
+
+// question: 5693  name: What is the microservices architecture?
+::What is the microservices architecture?::[html]<p>What is the microservices architecture?<br></p>{
+	=<p>Distributed applications based on a monolith services</p>
+	~<p>A service oriented architecture</p>
+	~<p>A RESTful API</p>
+	~<p>A cluster on the cloud</p>
+}
+
+
+// question: 5683  name: Which annotation activates monitoring in a Spring Boot application
+::Which annotation activates monitoring in a Spring Boot application::[html]<p>Which annotation activates monitoring in a Spring Boot application<br></p>{
+	=<p>@EnableCircuitBreaker</p>
+	~<p>@EnableCircuitBreaking</p>
+	~<p>@EnableCircuit</p>
+	~<p>@EnableBreaker</p>
+	~<p>@EnableBreakerCircuit</p>
+}
+
+
+// question: 5681  name: Which annotation is needed to enable Zuul in a Spring Boot application?
+::Which annotation is needed to enable Zuul in a Spring Boot application?::[html]<p>Which annotation is needed to enable Zuul in a Spring Boot application?<br></p>{
+	~<p>@EnableZuulDiscovery</p>
+	=<p>@EnableZuulProxy</p>
+	~<p>@EnableZuulClient</p>
+	~<p>@EnableZuulServer</p>
+	~<p>@EnableZuulDaemon</p>
+}
+
+
+// question: 5679  name: Which annotation is needed to mark a Spring Boot application as a Eureka client?
+::Which annotation is needed to mark a Spring Boot application as a Eureka client?::[html]<p>Which annotation is needed to mark a Spring Boot application as a Eureka client?<br></p>{
+	=<p>@EnableDiscoveryClient</p>
+	~<p>@EnableMessagingClient</p>
+	~<p>@EnableEurekaServer</p>
+	~<p>@EnableEurekaListener</p>
+	~<p>@EnableClientDiscovery</p>
+}
+
+
+// question: 5680  name: Which annotation is needed to mark a Spring Boot application as a Eureka server?
+::Which annotation is needed to mark a Spring Boot application as a Eureka server?::[html]<p>Which annotation is needed to mark a Spring Boot application as a Eureka server?<br></p>{
+	~<p>@EnableDiscoveryClient</p>
+	=<p>@EnableEurekaServer</p>
+	~<p>@EnableEurekaDiscovery</p>
+	~<p>@EnableEureka</p>
+	~<p>@EnableDiscovery</p>
+}
+
+
+// question: 5685  name: Which annotation is used to make a method subscribe to a specific topic available in a queue?
+::Which annotation is used to make a method subscribe to a specific topic available in a queue?::[html]<p>Which annotation is used to make a method subscribe to a specific topic available in a queue?<br></p>{
+	=<p>@KafkaListener(topics\="topic")</p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@KafkaSubscriber(topics\="topic")</span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@KafkaClient(topics\="topic")</span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;"><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@KafkaConsumer(topics\="topic")</span></span></p>
+}
+
+
+// question: 5684  name: Which annotation makes a method to fallback to another when an exception occurs?
+::Which annotation makes a method to fallback to another when an exception occurs?::[html]<p>Which annotation makes a method to fallback to another when an exception occurs?<br></p>{
+	=<p>@HytrixCommand(fallbackMethod \= "methodName")</p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@HytrixBreaker(fallbackMethod \= "methodName")</span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@CircuitBreaker(fallbackMethod \= "methodName")</span><br></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@CircuitOpen(fallbackMethod \= "methodName")</span></p>
+	~<p><span style\="color\: rgb(51, 51, 51); font-family\: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size\: 14px; font-style\: normal; font-variant-ligatures\: normal; font-variant-caps\: normal; font-weight\: 400; letter-spacing\: normal; orphans\: 2; text-align\: left; text-indent\: 0px; text-transform\: none; white-space\: normal; widows\: 2; word-spacing\: 0px; -webkit-text-stroke-width\: 0px; background-color\: rgb(255, 255, 255); text-decoration-style\: initial; text-decoration-color\: initial; display\: inline !important; float\: none;">@HytrixEnable(fallbackMethod \= "methodName")</span></p>
+}
+
+
+// question: 5689  name: Why do we use tools and services in a microservices architecture?
+::Why do we use tools and services in a microservices architecture?::[html]<p>Why do we use tools and services in a microservices architecture?<br></p>{
+	=<p>To eliminate the complexities added by having distributed monolithic applications.</p>
+	~<p>To make our system more efficient.</p>
+	~<p>To have enhance web services functionality.</p>
+	~<p>To serve different monolithic applications.</p>
+}
+
+
+// question: 5692  name: Both microservices architecture and SOA are service-based architectures
+::Both microservices architecture and SOA are service-based architectures::[html]<p>Both microservices architecture and SOA are service-based architectures<br></p>{TRUE#<p>Yes, it will be automatically done just with the dependency. However, we can specify some configuration on how it works in our application.properties file.</p>####<p>They share similarities but they are different, for example\: a web service is normally an independent application, some monoliths are dependent on others in order to function properly.</p>}
+
+
+// question: 5690  name: To make a Spring Boot application reload without restarting the server we just need to add the dev-tools maven dependency to our project
+::To make a Spring Boot application reload without restarting the server we just need to add the dev-tools maven dependency to our project::[html]<p>To make a Spring Boot application reload without restarting the server we just need to add the dev-tools maven dependency to our project<br></p>{TRUE#<p>Yes, it will be automatically done just with the dependency. However, we can specify some configuration on how it works in our application.properties file.</p>}
+
+
